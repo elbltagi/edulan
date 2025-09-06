@@ -1,0 +1,34 @@
+#root {
+  width: 100%;
+  min-height: 100vh
+}
+
+.back {
+  background-image: url("./assets/pexels-jplenio-1103970.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.glass {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.27);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.6px);
+  -webkit-backdrop-filter: blur(6.6px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("/fonts/Cairo-VariableFont_slntwght-BF643384ef6bbca.ttf");
+}
+
+* {
+  font-family: myFirstFont;
+}
+
+.hello {
+  font-family: myFirstFont;
+}
